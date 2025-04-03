@@ -16,9 +16,7 @@ app.use('/api/v1/post', postRoutes);
 app.use('/api/v1/gemini', dalleRoutes);
 
 app.get('/', (req, res) => {
-  res.status(200).json({
-    message: 'Hello Aayush, Cloud Backend Server is running successfully',
-  });
+  res.status(200).json('Hello Aayush, Cloud Backend Server is running successfully');
 });
 connectDB(process.env.MONGODB_URL);
 app.listen(process.env.PORT || 8080, () => console.log('Server started'));
