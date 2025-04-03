@@ -18,3 +18,5 @@ app.get("/", (req, res) => {
 });
 connectDB(process.env.MONGODB_URL);
 app.listen(process.env.PORT || 8080, () => console.log("Server started"));
+
+module.exports = app;
