@@ -17,6 +17,6 @@ app.get("/", (req, res) => {
     .json("Hello Aayush, Cloud Backend Server is running successfully");
 });
 connectDB(process.env.MONGODB_URL);
-app.listen(process.env.PORT || 8080, () => console.log("Server started"));
+app.listen(process.env.PORT || 5000, () => console.log("Server started"));
 
 module.exports = app;
