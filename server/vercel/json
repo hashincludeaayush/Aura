@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/api/v1/post/(.*)",
+      "destination": "/api/v1/post"
+    },
+    {
+      "source": "/api/v1/gemini/(.*)",
+      "destination": "/api/v1/gemini"
+    }
+  ]
+}

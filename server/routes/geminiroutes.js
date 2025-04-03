@@ -2,7 +2,7 @@ import express from 'express';
 import * as dotenv from 'dotenv';
 import { GoogleGenAI } from '@google/genai';
 
-import fs from 'fs';
+// import fs from 'fs';
 
 dotenv.config();
 
